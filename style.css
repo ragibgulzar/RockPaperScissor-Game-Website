@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-part{
+    font-family: 'Kablammo', cursive;
+    letter-spacing: 6px;
+    background-color: #2D4356;
+    color: white;
+    text-align: center;
+    height: 80px;
+    padding-top: 20px;
+}
+
+.main-part{
+    font-family: 'Roboto', sans-serif;
+    background-color: #435B66;
+    height: 1000px;
+    width: 100%;
+}
+
+.i-text{
+    text-align: center;
+    color: #EEE2DE;
+    padding: 30px;
+
+}
+.fi-text{
+    padding-bottom: 30px;
+}
+.si-text{
+    padding-bottom: 30px;
+    border-radius: 5px;
+}
+.selected-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    font-size: 70px;
+    padding: 10px;
+}
+.count-part{
+    color: #EEE2DE;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 190px;
+    padding: 20px;
+}
+
+.display-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25%;
+    padding: 50px 110px;
+    font-size: 100px;
+}
+
+ .buttonClass {
+    font-size:60px;
+    font-family:Arial;
+    width:102px;
+    height:86px;
+    border-width:1px;
+    color:#777777;
+  }
+
+  .buttonClass:hover {
+    background: linear-gradient(#dfdfdf, #ededed);
+  } 
+                
+
+.last-part{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #A76F6F;
+    height: 50px;
+    padding-top: 13px;
+}
+
+@media screen and (max-width : 410px){
+    .top-part{
+        height: 150px;
+        width: 400px;
+    }
+    .main-part{
+        width: 400px;
+    }
+    .last-part{
+        width: 400px;
+    }
+    .i-text{
+        padding: 10px;
+    }
+    .display-part{
+        padding-top: 20px;
+    }
+    
+}
+
+
+
